@@ -1,9 +1,0 @@
-name: pelican
-channels:
-  - conda-forge
-dependencies:
-  - beautifulsoup4
-  - invoke
-  - livereload
-  - pelican
-  - pyyaml
