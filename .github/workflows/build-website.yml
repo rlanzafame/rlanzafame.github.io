@@ -33,8 +33,8 @@ jobs:
       if: ${{ github.event_name == 'push' }}
       run: |
         git fetch origin
-        git checkout deploy
-        git pull origin deploy
+        git checkout gh-pages
+        git pull origin gh-pages
         git config --global user.name "Github Actions"
         git config --global user.email rlanzafame@users.noreply.github.com
         git remote add deploy "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/rlanzafame/rlanzafame.github.io.git"
