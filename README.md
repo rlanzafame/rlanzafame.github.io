@@ -10,3 +10,5 @@ Setup notes:
 - copied Jason's config file
 - forked [Jason's template repo](https://github.com/mechmotum/pelican-alchemy) ([my repo](https://github.com/rlanzafame/pelican-alchemy))
 - created an assets repo to keep images out of this one
+- copied Jason's github workflows file. adapted the branch rules to build on main and put the built site (output) on gh-pages
+- make sure that the source is built from a branch in the repo settings
