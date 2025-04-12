@@ -69,7 +69,7 @@ print(THEME, PLUGIN_PATHS)
 OS_SEP = os.sep
 # DISQUS_SITENAME = "blank"
 SITESUBTITLE = 'Personal Website'
-SITEIMAGE = 'https://rlanzafame.github.io/assets/images/sailboat-sloop.svg'
+# SITEIMAGE = 'https://rlanzafame.github.io/assets/images/sailboat-sloop.svg'
 # INSTITUTEIMAGE should bee 100px in height
 INSTITUTIONIMAGE = 'https://rlanzafame.github.io/assets/logos/tud-233x100.png'
 DESCRIPTION = ''
